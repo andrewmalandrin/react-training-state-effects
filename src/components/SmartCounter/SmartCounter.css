@@ -1,0 +1,29 @@
+.smart-counter{
+    --greycolor: #CCC;
+    
+    display: flex;
+    font-size: 12px;
+    border: 2px solid var(--greycolor);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90px;
+    max-height: 32px;
+    margin-top: 8px;
+}
+
+.smart-counter button{
+    background: #FFF;
+    color: orangered;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+.smart-counter .minus-button{
+    color: black;
+}
+
+.smart-counter .minus-button:disabled{
+    color: var(--greycolor);
+}
